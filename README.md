@@ -1,43 +1,63 @@
+# RAG-Pipeline: Retrieval-Augmented Generation with PDF Processing
+
 This project implements a sophisticated Retrieval Augmented Generation (RAG) system for processing and extracting insights from PDF documents using advanced embedding and language models.
-Features
 
-📄 Advanced PDF Document Processing
-🔍 Semantic Text Retrieval
-🤖 AI-Powered Knowledge Extraction
-🧩 Modular and Extensible Architecture
+---
 
-Code Generation and Evaluation
-AI-Powered Code Creation
-The project uses Together AI's language models to generate a complete RAG implementation:
+## Features
 
-Generates full Python code for PDF processing
-Covers embedding, vector search, and model integration
-Implements detailed requirements through structured prompting
+- **📄 Advanced PDF Document Processing**
+- **🔍 Semantic Text Retrieval**
+- **🤖 AI-Powered Knowledge Extraction**
+- **🧩 Modular and Extensible Architecture**
 
-Intelligent Code Review
-An automated evaluation system checks the generated code:
+---
 
-Validates syntax and logical correctness
-Ensures best practices and error handling
-Reviews code structure, documentation, and efficiency
-Provides iterative improvements and corrections
+## Code Generation and Evaluation
 
-Key Components
+### AI-Powered Code Creation
+This project utilizes Together AI's language models to generate a complete RAG implementation:
 
-PDF text extraction
-Intelligent text chunking
-Embedding generation
-Vector similarity search
-AI-powered response generation
+- Generates full Python code for PDF processing.
+- Covers embedding generation, vector search, and model integration.
+- Implements detailed requirements through structured prompting.
 
-Prerequisites
+### Intelligent Code Review
+An automated evaluation system ensures high-quality code:
 
-Python 3.8+
-Together AI API Key
-Required Python Packages:
+- Validates syntax and logical correctness.
+- Ensures best practices and robust error handling.
+- Reviews code structure, documentation, and efficiency.
+- Provides iterative improvements and corrections.
 
-requests
-torch
-sentence-transformers
-numpy
-PyPDF2
+---
+
+## Key Components
+
+1. **PDF Text Extraction**: Seamless text extraction from PDF documents.
+2. **Intelligent Text Chunking**: Efficient splitting of text into manageable chunks for processing.
+3. **Embedding Generation**: Leverages advanced embedding models for semantic understanding.
+4. **Vector Similarity Search**: Retrieves relevant text chunks based on user queries.
+5. **AI-Powered Response Generation**: Generates insightful and context-aware responses.
+
+---
+
+## Prerequisites
+
+### System Requirements
+- Python 3.8+
+
+### API Requirements
+- Together AI API Key
+
+### Required Python Packages
+Ensure the following packages are installed:
+
+- `requests`
+- `torch`
+- `sentence-transformers`
+- `numpy`
+- `PyPDF2`
+
+---
+
