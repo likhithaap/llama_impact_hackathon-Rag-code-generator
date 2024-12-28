@@ -1,6 +1,4 @@
-# RAG-Pipeline: Retrieval-Augmented Generation with PDF Processing
-
-This project implements a sophisticated Retrieval Augmented Generation (RAG) system for processing and extracting insights from PDF documents using advanced embedding and language models.
+This project generates code for Retrieval-Augmented Generation (RAG), implementing chunking, embedding, storing data in a vector database, and performing automatic code review and correction using advanced LLMs. It ultimately delivers the finalized code file.
 
 ---
 
